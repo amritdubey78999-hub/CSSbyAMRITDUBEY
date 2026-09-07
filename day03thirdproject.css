@@ -1,0 +1,17 @@
+*{
+    position:sticky;
+}
+.container{
+    background-color: orange;
+   
+    height: 200px;
+    
+   
+   
+   
+    
+}
+.body{
+    height: 1200px;
+    width: 1000px;
+}
