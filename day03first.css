@@ -1,0 +1,33 @@
+h2{
+    background-color: aquamarine;
+    position: relative; /*realtive me yhi hota hai ki kahi bhi position karva skte hai */
+    left: 100px;
+    top: 20px;
+    /* bottom same right bhi same hi hoga */
+    /* isme writen sentance ki position change hoti rhti hai */
+    /* main point relative apni position ko reserv karke rakhta h bhale vo khi aur ho */
+
+}
+h3{
+    background-color: pink;
+    position:fixed;
+    top: 0%;
+    /* fixed position bolta hai agar mai apni jagah chhodu to use picche vale bhar skte hai */
+
+}
+h4{
+    background-color:deeppink;
+    position: sticky;
+    top:10px;
+    /*ye scroll hone k sath hi upar stick ho jayega samjh jaoge yarr sticky hai */
+}
+p{
+    background-color: brown;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    margin: 0%;
+    z-index: 10;
+    /* jiski Z index ki value jada hogi vo override kar jayega vo visible dikhega */
+
+}
