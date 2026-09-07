@@ -1,0 +1,62 @@
+h1{
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+
+    /*border-width: 15px;
+    border-color: green;
+    border-style: dotted;*/
+    /*.. jo hamne ye tin chije 3 line me banayi use ak hi line me bhi likh skte hai jaise.. */
+    border: 10px black solid;
+
+   /*..padding: 10px; */
+    padding: 10px 20px 30px 40px;/* T R B L */
+    /*..padding jo content likha gya hai use border se dur karta hai aur ye charo taraf se lagega*/
+    margin: 30px;
+    /*..margin box ke content ke outside har side se pixel add karta hai */
+    border-radius: 50px;
+    /*..border radius ka mtlb charo sides se curve ho chuka hai */
+}
+/*Inline Element-->anchor,span ye sab hota hai */
+/*Block Element-->div,h1,h2,h3,p vegera vegra */
+
+h2{
+    background-color: pink;
+    border: 5px rgb(20, 9, 223) solid;
+    padding: 30px; ;
+    margin: 50px;
+    /*display: inline;*/
+    height: 200px;
+    width: 200px;
+    box-sizing: content-box;
+    /*..isme omly content ka hieght witdh judega..*/
+    box-sizing: border-box;
+    /*..Border-box=border-width+padding-width+content-width=width(200px)..*/
+    display: inline-block;
+    /*.same with inline-block , block , inline..*/
+    /*..diplay inline ka mtlb hai ye vala tag inline ki tarah react karega jaise span kisi element ke khtm hone ke bad turant aaja jata tha vaise hi ye bhi aajayega..*/
+}
+p{
+    background-color: aquamarine;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 5px;
+}
+ span{
+    /*..span tag me jitna jaruri hota hai utna hi color karta hai puri line color nahi karta jitna diya rhega utna hi karega.. */
+    /*..span tag ki ak aur quality vo jaha phle ka element finish hoga vo vahi se start ho jayega..*/
+    /*..elemet ke alava extra color vegera add nahi hone dega..*/
+    /*..padding aur margin dono horizontal line me hi apply hoga vertical me nahi hoga..*/
+    color:  blue;
+    padding-top: 500px; /* inline element m top aur bottom me padding apply nahi hoti hai */
+    margin-top: 500px; /* ye bhi apply nahi hoga */
+    padding-left: 10px; /* ye apply hoga */
+    margin-bottom: 50px; /* ye bhi nahi apply hoga */
+    margin-left: 100px;/*ye apply hoga */
+} 
+
+*{
+    /*ye universal slector hai jo sare tag pe apply hoga iske bad hi baki ke apply honge */
+    margin: 0px;
+    padding: 0px;
+}
