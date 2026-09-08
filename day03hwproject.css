@@ -1,0 +1,35 @@
+#container{
+    background-color: rgb(93, 69, 158);
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+.box{
+    box-sizing: border-box;
+    background-color:rgb(242, 4, 4);
+}
+.first {
+    background-color: brown;
+    height: 45px;
+    
+}
+.second{
+    position: absolute; /*  */
+    bottom: 0px;
+    left: 0px;
+    width: 100%;        /* for width*/
+    height: 45px;       /* for lenth*/
+    background-color: brown;
+}
+#circle{
+    background-color:white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+/*..static position na top pe work karegi na bootm me na hi left aur na hi right y e ak jagah stick ho jayegi..*/
+/*..relative pure body k accoring move karta hai..*/
+/*..absolute apne neerest parent ko dekhta hai uske acording hi apni jaagah change karta hai..*/
